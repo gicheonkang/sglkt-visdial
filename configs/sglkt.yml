@@ -1,0 +1,46 @@
+# Dataset reader arguments
+dataset:
+  image_features_train_h5: 'data/train_feature/train_btmup_f.hdf5'
+  image_features_val_h5: 'data/val_feature/val_btmup_f.hdf5'
+  image_features_test_h5: 'data/test_feature/test_btmup_f.hdf5'
+  
+  image_id2idx_train: 'data/train_feature/train_imgid2idx.pkl'
+  image_id2idx_val: 'data/val_feature/val_imgid2idx.pkl'
+  image_id2idx_test: 'data/test_feature/test_imgid2idx.pkl'
+
+  word_counts_json: 'data/visdial_1.0_word_counts_train.json'
+  glove_npy: 'data/glove840b_init_300d.npy'
+
+  img_norm: 1
+  concat_history: false
+  max_sequence_length: 20
+  vocab_min_count: 5
+  total_connection_val: 113520 # 2064 * 55     
+
+# Model related arguments
+model:
+  encoder: 'sgln'
+  decoder: 'disc'
+
+  img_feature_size: 2048
+  word_embedding_size: 300
+  hidden_size: 512
+  hidden_size_head: 256
+  multi_head: 2
+  model_dropout: 0.1
+  flat_mlp: 512
+  flat_glimpses: 1
+  flat_out_size: 512
+  lstm_num_layers: 1
+  transformer_num_layers: 1
+  sgl_update_num_layers: 2
+
+# Optimization related arguments
+solver:
+  batch_size: 64 # 32 x num_gpus is a good rule of thumb
+  num_epochs: 30
+  initial_lr: 0.0004
+  lr_decay_rate: 0.5
+  grad_accu_steps: 2
+  lr_decay_list: [12, 15, 18, 21, 24, 27]
+  training_splits: "train"  # "trainval"

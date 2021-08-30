@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+sftp-config.json
+
+# Distribution / packaging
+.Python
+env/
+build/
+
+# Datasets and preprocessed files
+data/glove/*
+data/*.zip
+data/*.json
+data/*/*.hdf5
+data/*.h5
+data/*.txt
+data/*.npy
+data/*.py
+*.yaml
+*.toml
+visdial_ch.egg-info/
+
+# Checkpoints directory
+checkpoints/*
+final_ckpt/*
+!checkpoints/README.md
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# virtualenv
+venv/
+ENV/
+
+# bak
+bak/
+
+# log
+nohup.out
