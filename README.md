@@ -96,7 +96,7 @@ Acknowledgements
 --------
 We use [Visual Dialog Challenge Starter Code][16] and [MCAN-VQA][17] as reference code.   
 
-[1]: https://gicheonkang.com
+[1]: https://arxiv.org/abs/2004.06698
 [2]: https://conda.io/docs/user-guide/install/download.html
 [3]: https://drive.google.com/file/d/1NYlSSikwEAqpJDsNGqOxgc0ZOkpQtom9/view?usp=sharing
 [4]: https://drive.google.com/file/d/1NI5TNKKhqm6ggpB2CK4k8yKiYQE3efW6/view?usp=sharing
