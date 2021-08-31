@@ -72,7 +72,7 @@ Evaluation of a trained model checkpoint can be done as follows:
 ```shell
 python evaluate.py --load-pthpath /path/to/checkpoint.pth --split val --gpu-ids 0 1
 ```
-Validation scores can be checked in offline setting. But if you want to check the `test split` score, you have to submit a json file to [EvalAI online evaluation server][13]. You can make json format with `--save_ranks=True` option.
+Validation scores can be checked in offline setting. But if you want to check the `test split` score, you have to submit a json file to [EvalAI online evaluation server][13]. You can make json format with `--save_ranks True` option.
 
 Pre-trained model & Results
 --------
