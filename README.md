@@ -88,10 +88,6 @@ Performance on `v1.0 test-std` (trained on `v1.0` train):
  ------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
   SGL+KT | 65.31 | 72.60 | 58.01 | 46.20 | 71.01 | 83.20 | 5.85
 
-License
---------
-MIT License
-
 Citation
 --------
 If you use this code in your published research, please consider citing:
@@ -103,6 +99,10 @@ If you use this code in your published research, please consider citing:
   year={2021}
 }
 ```
+
+License
+--------
+MIT License
 
 Acknowledgements
 --------
