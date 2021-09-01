@@ -92,6 +92,18 @@ License
 --------
 MIT License
 
+Citation
+--------
+If you use this code in your published research, please consider citing:
+```text
+@article{kang2021reasoning,
+  title={Reasoning Visual Dialog with Sparse Graph Learning and Knowledge Transfer},
+  author={Kang, Gi-Cheon and Park, Junseok and Lee, Hwaran and Zhang, Byoung-Tak and Kim, Jin-Hwa},
+  journal={arXiv preprint arXiv:2004.06698},
+  year={2021}
+}
+```
+
 Acknowledgements
 --------
 We use [Visual Dialog Challenge Starter Code][16] and [MCAN-VQA][17] as reference code.   
