@@ -12,14 +12,14 @@ In EMNLP 2021 Findings
 
 Setup and Dependencies
 ----------------------
-This code is implemented using PyTorch v1.0+, and provides out of the box support with CUDA 9+ and CuDNN 7+. Anaconda/Miniconda is the recommended to set up this codebase: <br>
+This code is implemented using PyTorch v1.7, and provides out of the box support with CUDA 11 and CuDNN 8. Anaconda/Miniconda is the recommended to set up this codebase: <br>
 
 1. Install Anaconda or Miniconda distribution based on Python3+ from their [downloads' site][2].
 2. Clone this repository and create an environment:
 
 ```shell
 git clone https://www.github.com/gicheonkang/sglkt-visdial
-conda create -n visdial-ch python=3.6
+conda create -n sglkt python=3.8
 
 # activate the environment and install all dependencies
 conda activate sglkt
