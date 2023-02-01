@@ -5,7 +5,7 @@ Pytorch Implementation for the paper:
 
 **[Reasoning Visual Dialog with Sparse Graph Learning and Knowledge Transfer][1]** <br>
 [Gi-Cheon Kang](https://gicheonkang.com), Junseok Park, [Hwaran Lee](https://hwaranlee.github.io), [Byoung-Tak Zhang](https://bi.snu.ac.kr/~btzhang/)<sup>\*</sup>, and [Jin-Hwa Kim](http://wityworks.com)<sup>\*</sup> (\* corresponding authors) <br>
-In EMNLP 2021 Findings
+**In EMNLP 2021 Findings**
 
 <!--![Overview of Sparse Graph Learning](sgl_overview.png)-->
 <img src="sgl_overview.png" width="90%" align="middle">
